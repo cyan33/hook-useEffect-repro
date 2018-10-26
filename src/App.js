@@ -19,6 +19,8 @@ function App() {
           value: 'Hello World',
         },
       }
+      // people will assume the store is updated after auth status
+      // is true, but it's actually not.
       updateAuthStatus(true);
     });
   });
